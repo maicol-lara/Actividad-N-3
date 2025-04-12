@@ -29,8 +29,8 @@ public class CameraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
 
-        imageView = findViewById(R.id.imageView);
-        btnTakePhoto = findViewById(R.id.btnTakePhoto);
+        this.imageView = findViewById(R.id.imageView);
+        this.btnTakePhoto = findViewById(R.id.btnTakePhoto);
 
         btnTakePhoto.setOnClickListener(v -> verificarPermisoCamara());
     }
